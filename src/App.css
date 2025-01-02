@@ -1,0 +1,158 @@
+#root {
+  padding: 0;
+  margin: 0;
+  width: 100dvw;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+/* HEADER COMPONENT START*/
+.header {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  column-gap: 5px;
+  background-color: #F55A5A;
+  color: #FFFFFF;
+  height: 55px;
+  font-family: Inter;
+  font-size: 14.46px;
+  font-weight: 500;
+  letter-spacing: -0.075em;
+  line-height: 17.5px;
+}
+
+.header * {
+  height: 24px;
+}
+
+.header>span {
+  display: flex;
+  align-items: center;
+}
+
+/* HEADER COMPONENT END*/
+
+/* ENTRY COMPONENT START */
+.entry-box {
+  margin-top: 40px;
+  width: 340px;
+  height: 168px;
+  top: 100px;
+  left: 40px;
+  column-gap: 20px;
+  opacity: 0px;
+  display: flex;
+}
+
+.entry-box:last-of-type {
+  margin-bottom: 25px;
+}
+
+.image-container {
+  height: 168px;
+  width: 125px;
+  overflow: hidden;
+  border-radius: 5px;
+  background-color: #918E9B;
+}
+
+.location-img {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+}
+
+.info-box {
+  width: 300px;
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  height: 168px;
+}
+
+.marker-text-span-parent {
+  font-family: Inter;
+  font-size: 10.24px;
+  font-weight: 400;
+  line-height: 12.39px;
+  letter-spacing: 0.17em;
+  text-align: left;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+}
+
+.marker-img {
+  width: 7px;
+  height: 9.55px;
+  gap: 0px;
+  opacity: 0px;
+}
+
+.place-link {
+  margin-left: 10px;
+  display: inline-block;
+  font-family: Inter;
+  font-size: 10.24px;
+  font-weight: 400;
+  line-height: 12.39px;
+  text-align: left;
+  text-decoration-line: underline;
+  text-decoration-style: solid;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+  color: #918E9B;
+}
+
+.place-name {
+  gap: 0px;
+  opacity: 0px;
+  text-align: left;
+  font-family: Inter;
+  font-size: 25px;
+  font-weight: 700;
+  line-height: 30.26px;
+  text-align: left;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+}
+
+.timeline {
+  margin: 15px 0;
+  gap: 0px;
+  opacity: 0px;
+  font-family: Inter;
+  font-size: 10.24px;
+  font-weight: 700;
+  line-height: 12.39px;
+  text-align: left;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+}
+
+.place-info {
+  text-align: left;
+  font-family: Inter;
+  font-size: 10.24px;
+  font-weight: 400;
+  line-height: 15.36px;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+  gap: 0px;
+  opacity: 0px;
+}
+
+.read-more {
+  cursor: pointer;
+  color: #F55A5A;
+}
+
+/* ENTRY COMPONENT END */
